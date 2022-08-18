@@ -4,8 +4,8 @@
 
 ## nonpolar
 - step 1. create a folder (e.g., /home/lin/nonpolar) and put the desired xyzs in it
-- step 2. run taffi/Automation_scripts/driver.py -c config.txt
-- step 3. When finished, you should have "" that contains the parameters
+- step 2. run taffi/Automation_scripts/driver.py -c config.txt (this is original code, it's not included here)
+- step 3. When finished, you should have "Param_for_Batch.db" that contains the parameters
 
 ## Drude
 ### You can run this at the original nonpolar or create a new folder for it (e.g., polar)
