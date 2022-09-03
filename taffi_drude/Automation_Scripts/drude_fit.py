@@ -530,6 +530,7 @@ def VDW_re(run_dir,args,tag,inchikey,current_gen,xyz):
        subprocess.call('mkdir configs_drude',shell=True)
        subprocess.call('mv configs/*/*_drude.xyz configs_drude',shell=True)
        subprocess.call('tar zcvf configs_drude.tar.gz configs_drude',shell=True)
+       subprocess.call('tar zcvf configs.tar.gz configs',shell=True)
        subprocess.call('rm -r configs_drude',shell=True)
        subprocess.call('rm -r configs',shell=True)
        
