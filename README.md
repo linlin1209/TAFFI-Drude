@@ -1,3 +1,5 @@
+# TAFFI-Drude
+ Polarizable extension of TAFFI
 # How to run
 ## Before Running
 - made sure the openmpi is correctly loaded so that chosen ORCA version can be executed without any errors (or DFT jobs will just keep failing)
